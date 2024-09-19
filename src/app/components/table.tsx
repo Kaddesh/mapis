@@ -81,7 +81,7 @@ const Table: React.FC = () => {
               <td className="py-4 px-6">2024-09-22</td>
             </tr>
             
-            <tr className="border-t text-sm text-[#344054]">
+            <tr className="border-t border-b text-sm text-[#344054]">
               <td className="py-4 px-6 pl-4">
                 <input type="checkbox" />
               </td>
