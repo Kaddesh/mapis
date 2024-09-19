@@ -101,14 +101,14 @@ const Table: React.FC = () => {
               <td className="py-4 px-6">2024-09-22</td>
             </tr>
 
-            <tr className="text-start text-sm text-[#d94b4b]">
+            <tr className="text-start text-sm ">
               <td className="py-4 px-6" colSpan={5}></td>
-              <td className="py-4 px-6 font-semibold">Sub total</td>
-              <td className="py-4 px-6 font-semibold">$8,000.00</td>
+              <td className="py-4 px-6">Sub total</td>
+              <td className="py-4 px-6">$8,000.00</td>
             </tr>
             <tr className="text-start text-sm">
               <td className="py-4 px-6" colSpan={5}></td>
-              <td className="py-4 px-6 font-semibold">Total</td>
+              <td className="py-4 px-6">Total</td>
               <td className="py-4 px-6 font-semibold">$8,750.00</td>
             </tr>
           </tbody>

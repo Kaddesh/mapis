@@ -32,19 +32,21 @@ const Sidebar: React.FC = () => {
         </li>
 
         <li className="flex items-center space-x-2 cursor-pointer">
+          <div className="flex space-x-2">
           <Image src="/assets/icon.svg" alt="logo" width={20} height={20} />
           <span>Procurement</span>
+          </div>
           <span
-            className="ml-auto cursor-pointer"
+            className="pl-20 cursor-pointer"
             onClick={() => setProcurementOpen(!isProcurementOpen)}
           >
             {isProcurementOpen ? <MdExpandLess /> : <MdExpandMore />}
           </span>
         </li>
-        {/* Dropdown for Procurement */}
+       
         {isProcurementOpen && (
           <ul className="ml-8 space-y-2">
-            <li>Orders</li>
+            <li>What</li>
             <li>Suppliers</li>
           </ul>
         )}
@@ -57,9 +59,11 @@ const Sidebar: React.FC = () => {
           <span>Orders</span>
         </li>
 
-        <li className="flex items-center space-x-2 cursor-pointer">
+        <li className="flex items-center justify-between cursor-pointer">
+          <div className="flex space-x-2">
           <Image src="/assets/money-1.svg" alt="logo" width={20} height={20} />
           <span>Finance</span>
+          </div>
           <span
             className="ml-auto cursor-pointer"
             onClick={() => setFinancesOpen(!isFinancesOpen)}
@@ -67,7 +71,7 @@ const Sidebar: React.FC = () => {
             {isFinancesOpen ? <MdExpandLess /> : <MdExpandMore />}
           </span>
         </li>
-        {/* Dropdown for Finances */}
+       
         {isFinancesOpen && (
           <ul className="ml-8 space-y-2">
             <li>Revenue</li>
