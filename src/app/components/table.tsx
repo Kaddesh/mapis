@@ -30,7 +30,7 @@ const Table: React.FC = () => {
                 <div className="flex items-center gap-3">
                   <Image src="/assets/Misc.png" alt="logo" width={40} height={20} />
                   <div>
-                    <p className='text-black font-medium'>Oxygen concentration</p>
+                    <p className='text-black font-medium text-nowrap'>Oxygen concentration</p>
                     <p className="text-xs text-gray-500">#28373</p>
                   </div>
                 </div>
@@ -49,7 +49,7 @@ const Table: React.FC = () => {
                 <div className="flex items-center gap-3">
                   <Image src="/assets/Misc.png" alt="logo" width={40} height={20} />
                   <div>
-                    <p className='text-black font-medium'>Oxygen concentration</p>
+                    <p className='text-black font-medium text-nowrap'>Mechanical ventila</p>
                     <p className="text-xs text-gray-500">#28373</p>
                   </div>
                 </div>
@@ -69,7 +69,7 @@ const Table: React.FC = () => {
                 <div className="flex items-center gap-3">
                   <Image src="/assets/Misc.png" alt="logo" width={40} height={20} />
                   <div>
-                    <p className='text-black font-medium'>Oxygen concentration</p>
+                    <p className='text-black font-medium text-nowrap'>Patient Monitor</p>
                     <p className="text-xs text-gray-500">#28373</p>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ const Table: React.FC = () => {
                 <div className="flex items-center gap-3">
                   <Image src="/assets/Misc.png" alt="logo" width={40} height={20} />
                   <div>
-                    <p className='text-black font-medium'>Oxygen concentration</p>
+                    <p className='text-black font-medium text-nowrap'>Mechanical ventila</p>
                     <p className="text-xs text-gray-500">#28373</p>
                   </div>
                 </div>

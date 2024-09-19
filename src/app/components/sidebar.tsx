@@ -16,7 +16,7 @@ const Sidebar: React.FC = () => {
   const [isFinancesOpen, setFinancesOpen] = useState(false);
 
   return (
-    <div className="flex flex-col justify-between w-[272px] h-full bg-[#F7F9FC] text-black p-6">
+    <main className="flex flex-col justify-between w-[272px] h-full bg-[#F7F9FC] text-[#101928] text-sm p-6">
     <div>
       <Image src="/assets/logo-main.svg" alt="logo" width={224} height={40} />
 
@@ -111,8 +111,9 @@ const Sidebar: React.FC = () => {
       </ul>
     </div>
 
-    <div>
-        <ul className="space-y-6 mt-8 text-sm">
+    <div className="flex flex-col gap-10">
+      <div>
+      <ul className="space-y-6 mt-8 text-sm">
         <li className="flex items-center space-x-2 cursor-pointer">
           <Image src="/assets/question-circle.svg" alt="logo" width={20} height={20} />
           <span>Contract</span>
@@ -123,8 +124,22 @@ const Sidebar: React.FC = () => {
           <span>Settings</span>
         </li>
         </ul>
+      </div>
+      
+        <div className="flex items-center justify-between gap-3">
+        <img
+            src="/assets/imageBotom.jpg"
+            alt="Profile"
+            className="h-8 w-8 rounded-full object-cover"
+          />
+          <div className="flex flex-col text-sm">
+            <h4 className="font-semibold">Mark Benson</h4>
+            <p>markbenson@core...</p>
+          </div>
+          <Image src="/assets/botomIcon.svg" alt="logo" width={20} height={20} />
+        </div>
     </div>
-    </div>
+    </main>
   );
 };
 
