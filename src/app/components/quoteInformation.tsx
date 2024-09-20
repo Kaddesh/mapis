@@ -11,7 +11,7 @@ const QuoteInformation = () => {
       </div>
 
       <div className="flex gap-8">
-        <div className="w-[60%] grid grid-cols-2 text-sm leading-8 ">
+        <div className="w-[60%] grid grid-cols-[1fr,2fr] text-sm leading-8 ">
           <div className="text-slate-400">
             <p>Title</p>
             <p>RFQ No</p>
@@ -39,7 +39,7 @@ const QuoteInformation = () => {
           </div>
         </div>
 
-        <div className="w-[40%] h-auto border rounded-md text-sm p-4 mr-3 mb-24">
+        <div className="w-[30%] h-auto border rounded-md text-sm p-4 mr-3 mb-24">
           <div className="flex gap-2 items-center">
             <Image src="/assets/building-5.svg" alt="logo-client" width={20} height={20} />
             <p className="text-slate-400 text-xs">Client</p>
