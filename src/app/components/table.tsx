@@ -10,10 +10,10 @@ const Table: React.FC = () => {
         <table className="w-full table-auto border-collapse">
           <thead className='text-slate-400 bg-[#F9FAFB] border-[#E4E7EC]'>
             <tr className="text-sm">
-              <th className="py-2 px-2 ">
+              <th className="py-4 px-6 pl-4">
                 <input type="checkbox" />
               </th>
-              <th className="text-start text-xs py-3  ">Items</th>
+              <th className="text-start text-xs py-3">Items</th>
               <th className="text-start text-xs py-3 px-6 ">Variants</th>
               <th className="text-start text-xs py-3 px-6 ">Quantity</th>
               <th className="text-start text-xs py-3 px-6 ">Price</th>
@@ -30,7 +30,7 @@ const Table: React.FC = () => {
                 <div className="flex items-center gap-3">
                   <Image src="/assets/Misc.png" alt="logo" width={40} height={20} />
                   <div>
-                    <p className='text-black font-medium text-nowrap'>Oxygen concentration</p>
+                    <p className='text-black font-medium truncate'>Oxygen concentration</p>
                     <p className="text-xs text-gray-500">#28373</p>
                   </div>
                 </div>
@@ -49,7 +49,7 @@ const Table: React.FC = () => {
                 <div className="flex items-center gap-3">
                   <Image src="/assets/Misc.png" alt="logo" width={40} height={20} />
                   <div>
-                    <p className='text-black font-medium text-nowrap'>Mechanical ventila</p>
+                    <p className='text-black font-medium truncate'>Mechanical ventila</p>
                     <p className="text-xs text-gray-500">#28373</p>
                   </div>
                 </div>
@@ -69,7 +69,7 @@ const Table: React.FC = () => {
                 <div className="flex items-center gap-3">
                   <Image src="/assets/Misc.png" alt="logo" width={40} height={20} />
                   <div>
-                    <p className='text-black font-medium text-nowrap'>Patient Monitor</p>
+                    <p className='text-black font-medium truncate'>Patient Monitor</p>
                     <p className="text-xs text-gray-500">#28373</p>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ const Table: React.FC = () => {
                 <div className="flex items-center gap-3">
                   <Image src="/assets/Misc.png" alt="logo" width={40} height={20} />
                   <div>
-                    <p className='text-black font-medium text-nowrap'>Mechanical ventila</p>
+                    <p className='text-black font-medium truncate'>Mechanical ventila</p>
                     <p className="text-xs text-gray-500">#28373</p>
                   </div>
                 </div>
@@ -105,6 +105,7 @@ const Table: React.FC = () => {
               <td className="py-4 px-6" colSpan={5}></td>
               <td className="py-4 px-6">Sub total</td>
               <td className="py-4 px-6">$8,000.00</td>
+
             </tr>
             <tr className="text-start text-sm">
               <td className="py-4 px-6" colSpan={5}></td>
