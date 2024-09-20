@@ -136,7 +136,7 @@ const Sidebar: React.FC = () => {
             <h4 className="font-semibold">Mark Benson</h4>
             <p>markbenson@core...</p>
           </div>
-          <Image src="/assets/botomIcon.svg" alt="logo" width={20} height={20} />
+          <Image src="/assets/botomIcon.svg" alt="logo" width={20} height={20} className="cursor-pointer" />
         </div>
     </div>
     </main>
