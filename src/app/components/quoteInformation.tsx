@@ -3,14 +3,14 @@ import React from "react";
 
 const QuoteInformation = () => {
   return (
-    <div className="flex flex-col w-full px-6 py-8 border rounded-lg mb-5 ">
+    <div className="flex flex-col w-full px-8 py-6 border rounded-lg mb-5 ">
 
-      <div className="flex items-center justify-between my-3">
+      <div className="flex justify-between my-3">
         <p className="font-medium">Quote Information</p>
         <p className="text-slate-400 text-xs">Expected delivery date: 2024-12-02</p>
       </div>
 
-      <div className="flex gap-8">
+      <div className="flex items-start justify-start gap-8 h-auto">
         <div className="w-[60%] grid grid-cols-[1fr,2fr] text-sm leading-8 ">
           <div className="text-slate-400">
             <p>Title</p>
@@ -39,7 +39,7 @@ const QuoteInformation = () => {
           </div>
         </div>
 
-        <div className="w-[30%] h-auto border rounded-md text-sm p-4 mr-3 mb-24">
+        <div className="w-[30%] h-auto border rounded-md text-sm p-4 mr-3">
           <div className="flex gap-2 items-center">
             <Image src="/assets/building-5.svg" alt="logo-client" width={20} height={20} />
             <p className="text-slate-400 text-xs">Client</p>
